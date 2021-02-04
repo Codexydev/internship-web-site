@@ -1,0 +1,181 @@
+@font-face {
+ font-family: "Roboto";
+ src: url("../asset/roboto/Roboto-Thin.ttf") format("truetype")
+}
+
+body{
+	position: relative;
+	width: 1440px;
+	height: 960px;
+	background: #B6BEDB;
+}
+
+.rect{
+	position: absolute;
+	width: 80vw;
+	height: 48.2428vw;
+	left: 10vw;
+	top: 25vh;
+
+	background: #C4C4C4;
+	box-shadow: -6px 11px 13px rgba(0, 0, 0, 0.25);
+	border-radius: 23px;
+}
+
+.para_princel{
+	position: absolute;
+	top:5%;
+	left:5%;
+	color:#898989;
+	font-family: roboto;
+	font-size: 2.2428vw;
+
+
+}
+.para_princer{
+	position: absolute;
+	top:5%;
+	left:50%;
+	color:#898989;
+	font-family: roboto;
+	font-size: 2.2428vw;
+
+
+}
+
+
+
+.title{
+	position: absolute;
+	left: 10vw;
+	top: 10vh;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 5vw;
+	line-height: 75px;
+	letter-spacing: 0.02em;
+
+	/* Gris */
+
+	color: #898989;
+}
+
+
+.logo_crea{
+	position: fixed;
+	top: 85vh;
+	right: 1.2428vh;
+	width: 10vh;
+	height: 10vh;
+	border-radius: 60%;
+	transition: 0.5s;
+	z-index: 2;
+}
+
+
+.home{
+	text-decoration: none;
+	position: fixed;
+	background: #898989;
+	top: 5px;
+	right: 5px;
+	width:18vh;
+	height: 18vh;
+	border-radius: 50%;
+	box-shadow: -1px 4px 4px rgba(0, 0, 0, 0.25);
+	z-index: 2;
+
+}
+.title_home{
+	position: absolute;
+	font-size: 5vh;
+	font-family: Roboto;
+	top: 30%;
+	left: 0%;
+	color:white;
+	text-align: center;
+	width: 100%
+}
+.bouton{
+	position: absolute;
+	width: 30vw;
+	height: 15vh;
+	left: 60vw;
+	top: 290vh;
+
+	/* Gris */
+
+	background: #898989;
+	box-shadow: -1px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 37px;
+}
+.title_commencer{
+	position: absolute;
+	width: 100%;
+	height: 77px;
+	left: 0%;
+	top: 15%;
+	text-align: center;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-size: 4vw;
+	line-height: 75px;
+	letter-spacing: 0.02em;
+
+	color:#B6BEDB ;
+
+
+}
+
+.maps{
+	position: absolute;
+	top:170vh;
+	width: 97vw;
+	height:100vh;
+}
+.down_arrow{
+	position: absolute;
+	transform: rotate(180deg);
+	font-size: 30vw;
+	color: white;
+	left: 45vw;
+	top: 100vh;
+}
+
+.retour{
+	position: absolute;
+	width: 20vw;
+	height: 65.67px;
+	left: 38.2428vw;
+	top: 295vh;
+
+	/* Gris */
+
+	background: #898989;
+	box-shadow: -1px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 37px;
+}
+.title_retour{
+	position: absolute;
+	width: 165px;
+	height: 56px;
+	left: 27.5%;
+	top: 10%;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 3vw;
+	line-height: 56px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.02em;
+
+	/* white */
+
+	color:#B6BEDB ;
+}
